@@ -27,7 +27,8 @@ a:hover {
 }
 
 .btn-email, .btn-telegram {
-    width: 400px; 
+    width: auto;
+    max-width: 400px; 
     text-align: center; 
 }
 
@@ -56,9 +57,10 @@ a:hover {
 }
 
 .profile-photo {
+    display: block;
     margin-left: 14%; 
-    width: 150px; 
-    height: 150px; 
+    width: 10%; 
+    aspect-ratio: 1/1;
     border-radius: 50%; 
     object-fit: cover;
 }
