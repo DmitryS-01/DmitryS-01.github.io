@@ -154,7 +154,7 @@ button {
     margin-right: 70px;
     width: auto;
     max-width: 600px; 
-    background-color: #858585;
+    background-color: #35cd0f;
     color: rgb(0, 0, 0);
     border: none;
     border-radius: 10px;
@@ -162,5 +162,5 @@ button {
 }
 
 button:hover {
-    background-color: rgb(40, 200, 32);
+    background-color: rgb(13, 255, 0);
 }
