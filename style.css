@@ -152,13 +152,13 @@ ul li {
 button {
     font-size: 2em;
     padding: 20px 40px;
-    background-color: #299360;
-    color: white;
+    background-color: #858585;
+    color: rgb(0, 0, 0);
     border: none;
     border-radius: 10px;
     cursor: pointer;
 }
 
 button:hover {
-    background-color: blue;
+    background-color: rgb(218, 84, 84);
 }
