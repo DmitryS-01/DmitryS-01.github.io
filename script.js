@@ -3,7 +3,7 @@ let button = document.getElementById("counterButton");
 
 function inc() {
     count++;
-    button.textContent = "Cliked " + count + " times";
+    button.textContent = count + "x нрав!";
 }
 
 button.addEventListener('click', inc)
