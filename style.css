@@ -17,6 +17,10 @@ a {
     margin: 5px; 
 }
 
+a:hover {
+    opacity: 0.9; 
+}
+
 .btn-email, .btn-telegram {
     background-color: #f0f0f0; 
     color: #333; 
@@ -32,10 +36,6 @@ a {
     color: white; 
     width: 200px; 
     text-align: center; 
-}
-
-a:hover {
-    opacity: 0.9; 
 }
 
 .header-container {
@@ -54,6 +54,7 @@ a:hover {
     color: #333; 
     margin-bottom: 10px;
 }
+
 .profile-photo {
     margin-left: 190px; 
     width: 150px; 
@@ -79,23 +80,17 @@ header {
     margin-bottom: 20px;
 }
 
+section {
+    padding: 20px 0; 
+    margin: 40px 0; 
+    padding-top: 130px; 
+    margin-top: -130px; 
+}
+
 header h1 {
     margin: 0;
     font-size: 2.5em;
     color: #333;
-}
-
-header p {
-    margin: 5px 0;
-    font-size: 1em;
-    color: #666;
-}
-
-section {
-    padding: 20px 0; 
-    margin: 40px 0; 
-    padding-top: 75px; 
-    margin-top: -75px; 
 }
 
 section h2 {
@@ -121,6 +116,12 @@ h3 {
     font-size: 1.4em;
     color: #080707;
     margin-bottom: 10px;
+}
+
+header p {
+    margin: 5px 0;
+    font-size: 1em;
+    color: #666;
 }
 
 p {
